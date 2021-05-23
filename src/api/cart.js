@@ -12,7 +12,7 @@ export async function addToCart(item) {
 
 export async function deleteInCart(id) {
     try {
-        const { data } = await axios.delete(`/points/delete?id=${id}`);
+        const { data } = await axios.delete(`/basket/delete?id=${id}`);
 
         return data;
     } catch(error) {

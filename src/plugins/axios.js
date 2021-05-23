@@ -4,7 +4,7 @@ import humps from 'humps';
 const initToken = localStorage.getItem('token') || sessionStorage.getItem('token') || ''
 
 const instance = axios.create({
-    baseURL: 'http://emrdev.ru/api',
+    baseURL: 'https://emrdev.ru/api',
     transformResponse: [
         ...axios.defaults.transformResponse,
         data => humps.camelizeKeys(data)
