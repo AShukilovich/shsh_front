@@ -1,4 +1,4 @@
-# smart-cities
+# Sharing shashl
 
 ## Project setup
 ```
